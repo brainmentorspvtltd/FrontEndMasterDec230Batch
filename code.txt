@@ -1,0 +1,101 @@
+var a ;
+typeof(a);
+a=100;
+typeof(a);
+a=100.20;
+typeof(a);
+a=1;
+typeof(a);
+a=1000000;
+typeof(a);
+a=100/0;
+typeof(a);
+a=100 - "AMIT";
+typeof(a);
+100 + "100";
+100 + "amit";
+100 * "amit"
+var c = 100/0;
+isFinite(c)?"Correct":"Wrong";
+var c = "Amit"-"Hello";
+isNaN(c);
+isNaN(c)?"Invalid Value":"Valid Value";
+a=100;
+var b = "100";
+a + b;
+a + parseInt(b);
+parseFloat("100.20");
+window;
+typeof(window);
+window instanceof Window;
+typeof(Window);
+function Calc(){
+function add(){
+}
+function sub(){
+}
+}
+
+
+
+
+var c = new Calc();
+	c instanceof Calc;
+function test(){
+console.log("I am in Test ");
+}
+typeof(test);
+test(10,20);
+test();
+test([10,20,30],"Amit");
+window.test();
+var t  = window.open("http://www.google.com");
+this==window;
+var a= "Amit";
+typeof(a);
+a = 'Amit';
+typeof(a);
+a = `hfgjdhgjdfjkgjdkfhgkjhdfjkg
+gdjfhjghdfjkgd
+gdjfgkjdfh`;
+typeof(a);
+console.log("A is "+a+" and B is "+b+" And C is "+c);
+console.log(`A is ${a} and B is ${b} and c is ${c}`);
+var [a,b] = [10,20];
+var [a,b] = [b,a];
+a ** b;
+var c = true;
+a + c;
+var d = new Number(100);
+typeof(d);
+var e= 100;
+typeof(e);
+d++;
+var a = "100";
+a++;
+var e = new String("100");
+++e;
+var e = new String("Amit");
+++e;
+var obj = {};
+typeof(obj);
+obj instanceof Object;
+window instanceof Object;
+window instanceof Window;
+typeof Object;
+var obj = {id:1001, name:'Ram',salary:99999};
+obj.bonus = 999;
+delete obj.bonus;
+var arr = [10,20,30];
+arr.length;
+var e = arr[0];
+var g = arr[1];
+var [a,b,c]  = arr;
+a;
+b;
+c;
+var obj = {id:1001, name:'Ram',salary:99999};
+var q = obj.id;
+var {id,salary} = obj;
+var tt = [1,2,3,4,5,6,7,8,9];
+var [a,,,,e] = tt;
