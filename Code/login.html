@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="logic.js"></script>
+</head>
+
+<body>
+    <label for="">Userid</label>
+    <input onblur="isBlank(this.value,'Userid','usererror')" id="userid" type="text" placeholder="Type Userid Here">
+    <span id="usererror"></span>
+    <br>
+    <label for="">Password</label>
+    <input onblur="doPasswordValidations(this.value)" id="pwd" type="password" placeholder="Type Password Here">
+    <span id="pwderror"></span>
+    <br>
+    <button onclick="validate()">Login</button>
+</body>
+
+</html>
